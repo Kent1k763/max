@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="../vkusnoitocha/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+
+        <a href="../vkusnoitocha/index.html"><img class="logo" src="../vkusnoitocha/image/Title лого 2.png" alt=""></a>
+        <div class="headername">
+            <p class="name">Пальчики оближешь</p>
+            <p class="lastname">Легендарная кондитерская</p>
+        </div>
+
+        <div class="about">
+            <a href="../vkusnoitocha/registration.html"><p>Регистрация</p></a>
+            <a href="../vkusnoitocha/login.html"><p>Вход</p></a>
+            <a href="../vkusnoitocha/basket.html"><p>Корзина</p></a>
+        </div>
+
+    </header>
+
+		<main>
+
+			<content class='buy-window'>
+
+				<div class="buy">
+					<div class="product">
+						<hr>
+						<div class="product-form-1">
+							<div class="product-image1"></div>
+							<div class="name-product">
+								<p>Чернично-<br>малиновый</p>
+							</div>
+							<svg class='svg-' xmlns="http://www.w3.org/2000/svg" 			width="20" height="20" viewBox="0 0 20 20" fill="none">
+							<circle cx="10" cy="10" r="9" stroke="black" stroke-width="2"/>
+							<rect x="4" y="9" width="12" height="2" fill="black"/>
+							</svg>
+							<div class="quantity">
+								<p>1</p>
+							</div>
+							<svg class='svg1' xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+							<circle cx="10" cy="10" r="9" stroke="black" stroke-width="2"/>
+							<rect x="9" y="4" width="2" height="12" fill="black"/>
+							<rect x="4" y="9" width="12" height="2" fill="black"/>
+							</svg>
+							<div class="amount">
+								<p>2150 p.</p>
+							</div>
+						</div>
+						
+						<div class="product-form-2">
+							<div class="product-image2"></div>
+							<div class="name-product">
+								<p>Зеленое<br>яблоко</p>
+							</div>
+							<svg class='svg-' xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+							<circle cx="10" cy="10" r="9" stroke="black" stroke-width="2"/>
+							<rect x="4" y="9" width="12" height="2" fill="black"/>
+							</svg>
+							<div class="quantity">
+								<p>1</p>
+							</div>
+							<svg class='svg1' xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+							<circle cx="10" cy="10" r="9" stroke="black" stroke-width="2"/>
+							<rect x="9" y="4" width="2" height="12" fill="black"/>
+							<rect x="4" y="9" width="12" height="2" fill="black"/>
+							</svg>
+							<div class="amount">
+								<p>1950 p.</p>
+							</div>
+						</div>
+						<hr>
+					</div>
+
+					<div class="buy-form">
+						<p class="name">Имя</p>
+						<input type="text">
+						<p class="mail">E-mail</p>
+						<input type="text">
+						<p class="phone">Номер телефона</p>
+						<input type="text">
+						<p class="adress">Адрес доставки (если нужно)</p>
+						<input type="text">
+						<p class="com">Комментарий</p>
+						<input class='input-com' type="text">
+					</div>
+					<p class="amount">Итоговая сумма: 4100 р.</p>
+
+					<a href='#'>
+						<div class='buy-btn'>
+							<p>Оформить заказ</p>
+						</div>
+					</a>
+				</div>
+
+			</content>
+    </main>
+</body>
+<style>
+	.buy {
+    background-color: #AA7D7DBF;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.product-form-1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+.product-form-2 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    padding-left: 1px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.product-image1 {
+    background-image: url("../vkusnoitocha/image/tov1/noroot2.jpg");
+    background-size: 100% 100%;
+    width: 75px;
+    height: 75px;
+}
+
+.product-image2 {
+    background-image: url("../vkusnoitocha/image/tov1/noroot22.png");
+    background-size: 100% 100%;
+    width: 75px;
+    height: 75px;
+}
+
+hr {
+    color: #000;
+    background-color: #000;
+    background: #000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 420px;
+
+}
+
+.name-product {
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+
+.name-product > p {
+    color: #000;
+}
+
+.svg- {
+    padding-top: 25px;
+    padding-left: 40px;
+}
+
+.product-form-2 > .svg- {
+    padding-left: 69px;
+}
+
+.svg1 {
+    padding-top: 25px;
+}
+
+.amount {
+    padding-top: 27px;
+    padding-left: 25px;
+}
+
+.amount > p {
+    color: #000;
+}
+
+.quantity {
+    padding-top: 27px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.quantity > p {
+    color: #000;
+}
+
+.buy-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.buy-form > p {
+    color: black;
+    margin-top: 10px;
+
+}
+
+input {
+    width: 400px;
+    height: 25px;
+    border: 1px solid #000;
+    background-color: #aa7d7d00;
+}
+
+input {
+    outline: none;
+}
+
+.input-com {
+    height: 164px;
+}
+
+p.amount {
+    color: black;
+    margin-left: 500px;
+    margin-top: 30px;
+} 
+
+.buy-btn {
+    background-color: #aa7d7d00;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.buy-btn > p {
+    color: #000;
+    
+}
+
+</style>
+</html>

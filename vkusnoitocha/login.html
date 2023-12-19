@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Готовые торты</title>
+    <link rel="stylesheet" href="../vkusnoitocha/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+
+        <a href="../vkusnoitocha/index.html"><img class="logo" src="../vkusnoitocha/image/Title лого 2.png" alt=""></a>
+        <div class="headername">
+            <p class="name">Пальчики оближешь</p>
+            <p class="lastname">Легендарная кондитерская</p>
+        </div>
+
+        <div class="about">
+            <a href="../vkusnoitocha/registration.html"><p>Регистрация</p></a>
+            <a href="../vkusnoitocha/login.html"><p>Вход</p></a>
+            <a href="../vkusnoitocha/basket.html"><p>Корзина</p></a>
+        </div>
+
+    </header>
+
+    <main>
+
+
+			<div class="buy-form">
+				<h2>Войти</h2>
+				<p class="name">Логин</p>
+				<input type="text">
+				<p class="phone">Пароль</p>
+				<input type="password">
+				<div class="radio1">
+					<input type='radio' name='1' value="1"/><p>Сотрудник</p><br>
+				</div>
+				<div class="radio2">
+					<input id='123' type='radio' name='1' value="2"/><p>Клиент</p>
+				</div>
+				<a href='#'>
+					<div class='buy-btn'>
+						<p>Войти</p>
+					</div>
+				</a>
+
+		</div>
+    </main>
+</body>
+<style>
+	.buy-btn {
+			background-color: #aa7d7d00;
+			border: 1px solid black;
+			border-radius: 20px;
+			height: 50px;
+			width: 200px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+	}
+	
+	.buy-btn > p {
+			color: #000;
+			
+	}
+	
+	.radio1, .radio2 {
+	 display: flex;
+	 align-items: center;
+	
+	}
+	.radio1 {
+		margin-top: 20px;
+		 margin-bottom: 10px;
+	}
+	
+	.radio1 > input {
+		width: 20px;
+	}
+	
+	.radio2 > input {
+		width: 20px;
+		border: #000 1px solid;
+		background-color: #aa7d7d00;
+	}
+	
+	.radio2 > p {
+		margin: 0;
+		padding: 0;
+		color: #000;
+	}
+	
+	.radio1 > p {
+		margin: 0;
+		padding: 0;
+		color: #000;
+	}
+	
+	.buy-form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 50px;
+			background-color: #AA7D7DBF;
+			width: 700px;
+			height: 500px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 50px;
+	}
+	
+	.buy-form > p {
+			color: black;
+			margin-top: 10px;
+	
+	}
+	
+	input {
+			width: 400px;
+			height: 25px;
+			border: 1px solid #000;
+			background-color: #aa7d7d00;
+	}
+	
+	input {
+			outline: none;
+	}
+	
+	h2 {
+		font-family: "Comfortaa";
+		color: aliceblue; 
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	</style>
+	
+</html>	
